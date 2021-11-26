@@ -69,11 +69,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   width: 100%;
   bottom: 0;
   left: 0;
-  padding-bottom: 45px;
+  margin-top: 20px;
+  padding-bottom: 25px;
 }
 
 .twitter-logo {
@@ -102,6 +102,7 @@
   position: relative;
   justify-self: center;
   align-self: center;
+  margin-bottom: 30px;
 }
 
 .gif-item img {
@@ -111,7 +112,7 @@
   object-fit: cover;
 }
 
-.connected-container input[type='text'] {
+.connected-container input[type="text"] {
   display: inline-block;
   color: white;
   padding: 10px;
